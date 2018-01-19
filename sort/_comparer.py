@@ -4,7 +4,7 @@
 
 # this is compare function, might be better delivery lambda in real
 
-def _comparer(a,b):
+def int_comparer(a,b):
     if a < b:
         return -1
     elif a > b:
