@@ -18,7 +18,7 @@ def find_posion(array, start, end, item, compare = int_comparer):
     else:
       return find_posion(array, start, end)
 
-def insertion_mid(array, compare = int_comparer):
+def insertion(array, compare = int_comparer):
   for i in range(1, len(array)):
     position = find_posion(array, 0, i - 1, array[i])
     tmp = array[i]
