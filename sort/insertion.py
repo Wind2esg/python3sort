@@ -1,5 +1,5 @@
 # python3 sort <http://github.com/Wind2esg/python3sort>
-# Copyright 2018 Wind2
+# Copyright 2018 Wind2esg
 # Released under the MIT license <http://github.com/Wind2esg/python3sort/LICENSE>
 
 # Build a sorted range from 0 to i - 1, then try to find the position for the i item
