@@ -4,8 +4,10 @@
 
 from _comparer import int_comparer
 
+
 def quick(array, compare=int_comparer):
     return find_position(array, 0, len(array) - 1)
+
 
 def find_position(array, left, right, compare=int_comparer):
     i = left
